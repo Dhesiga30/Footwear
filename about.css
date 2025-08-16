@@ -83,10 +83,12 @@ body {
   background-color: #000;
   color: #fcff5d;
 }
+
 .img img{
   width: 100%;
   max-width: 300px;
-  margin: auto;
+  margin: 40px 20px;
+  gap:20px;
   border-radius: 100px;
   border-color: antiquewhite;
   border-width: 2px;
@@ -96,6 +98,7 @@ body {
 .img img {
   width: 100%;
   max-width: 300px;
+  padding-top: auto;
   border-radius: 100px;
   border: 2px dashed antiquewhite;
 }
