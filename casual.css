@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40 !important;
+  padding: 0.5rem 0; /* Reduced from 1rem to 0.5rem */
+}
+.nav-item{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-nav .nav-item .nav-link.login {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link.login:hover {
+  background-color: #e0a800 !important;
+  color: #fff !important;
+}
+
+
+.navbar-brand img {
+  width: 50px; /* Reduced from 70px */
+  height: 50px; /* Reduced from 70px */
+  margin-right: 8px;
+  border-radius: 50px;
+  border-color: #ffc107;
+  border-style: double;
+}
+
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 22px; /* Reduced from 28px */
+  margin: 0;
+  font-family: "VINTAGE BOLD SERIF FONTS", sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.navbar-nav .nav-link {
+  color: #ccc !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffc107 !important;
+  font-weight:800;
+   border-bottom: none;
+}
+/* product */
+.nav-link{
+  color: #f3a109;
+}
+
+.nav-link {
+  color: #f3a109;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  color:  #ff9900d0;
+}
+.product-card {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+}
+.card img{
+    height: 300px; 
+   width: 300px;
+      width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+    
+
+.product-card img {
+  object-fit: cover;
+  height: 200px;
+
+  border-radius: 8px;
+}
+/* Footer */
+.footer {
+  background-color: #111;
+  padding: 25px 10px;
+  margin-top: 60px;
+  text-align: center;
+  color: #aaa;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
